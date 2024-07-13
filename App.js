@@ -1,4 +1,4 @@
-import Segment from "./Savesegment/SaveSegment";
+import Segment from "./Savesegment";
 const App = ()=>  {
   
     return ( <> 
