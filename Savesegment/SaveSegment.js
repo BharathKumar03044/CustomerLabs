@@ -16,7 +16,7 @@ const Segment = () => {
   const [segmentName, setSegmentName] = useState('');
   const [selectedSchemas, setSelectedSchemas] = useState([]);
   const [dropdowns, setDropdowns] = useState([]);
-
+//Webhook is asking for Premium so i have used below website which serves same functionality
   const webhookUrl = 'https://f356535d37eeb5ff91374e35b1380c1d.m.pipedream.net'; 
 
   const togglePopup = () => setIsPopupOpen(!isPopupOpen);
